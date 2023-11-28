@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.conteudo {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h1 {
+    font-size: 15vw;
+    text-transform: uppercase;
+}
+
+.Fter-Box a {
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+}
+
+.Fter-Box ul {
+    list-style-type: none;
+}
+
+.Fter-Box {
+    width: 312px;
+    padding: 15px;
+}
+
+.Fter-Box h2 {
+    color: rgb(216, 213, 213);
+}
+
+.Fter-Box p {
+    color: rgb(206, 203, 203);
+    margin: 15px 0px;
+}
+
+.Fter-Box a:hover {
+    color: rgb(180, 177, 177);
+}
+
+.Fter-Box ul li {
+    margin: 15px 0px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(94, 90, 90);
+    height: 200px;
+}
+
+.footer {
+    background-color: rgb(58, 56, 56);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h2 {
+    color: white;
+    margin-left: 20px;
+}
+
+.sociais {
+    display: flex;
+}
+
+.social {
+    background-color: #ddd;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social a {
+    color: black;
+    font-size: 1.5em;
+}
+
+.social:hover {
+    background-color: black;
+}
+
+.social:hover a {
+    color: white;
+}
